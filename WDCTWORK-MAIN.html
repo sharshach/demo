@@ -1,0 +1,761 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<title>NIT DURGAPUR</title>
+		<link rel="shortcut icon" href="logo.png" />
+
+		<!-- Bootstrap  -->
+ 		<meta charset="utf-8">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
+
+		<!--LOCAL CSS-->
+		
+		<style>
+		.logo{	
+	
+	width:85px;
+	height:85px;
+}
+.headermain{
+	background-color:rgb(5,10,52);
+	color:white;	 width:100%;
+	font-family:georgia;
+	
+}
+
+
+.imgppt{
+  width: 100%;
+  height: auto;
+}
+.nitcaption{font-family:cursive;}
+div.largevisible{padding:25px;}
+div.smallvisible{padding:25px;}
+@media screen and (max-width:1000px)
+{
+	div.largevisible{display:none;}
+}
+@media screen and (min-width:1000px)
+{
+	div.smallvisible{display:none;}
+}
+@media screen and (max-width:750px)
+{
+	div.nitcaption{display:none;}
+}
+@media screen and (min-width:750px)
+{
+	div.nitcaptionopposite{display:none;}
+}
+@media screen and (min-width:750px)
+{
+	div.mobileview{display:none;}
+}
+@media screen and (max-width:750px)
+{
+	div.lapview{display:none;}
+}
+
+
+footer{
+	
+	width:100%;
+	text-align: center;
+	background-color:rgb(27,44,40);
+
+	color:white;
+
+	padding:20px;
+}
+
+.nitweb{
+padding:6px;
+	color:white;
+background-color:blue;
+border-radius:10px;
+text-decoration:none;
+}
+.weblinks{
+color:rgb(232,0,0);
+}
+.sd01{
+	color:black;
+	border-radius:20px;
+	text-align: center;
+font-family:schoolbell;
+transform:scale(0.96);
+}
+.sd02{
+	color:white;
+	border-radius:20px;
+	border-width:-100px;	
+	text-align: center;
+	font-family:schoolbell;
+transform:scale(0.96);
+}a:hover{color:white;}
+
+
+
+
+
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; size:2;}
+.logoload {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(NITLOGO2.png) center no-repeat rgb(5,10,52);
+}
+.part1{}
+#vtour{
+	width:100%;
+	background-color:yellow;
+	text-align:center;
+	font-family:eater;
+	padding:10px;
+	}
+#hnb{
+	opacity:1;
+	}
+#hidebutton{
+	opacity:1;
+background-color:rgb(5,10,52);
+border-color:rgb(5,10,52);
+color:white;
+font-size:150%;
+}
+#showbutton{
+background-color:rgb(5,10,52);
+border-color:rgb(5,10,52);
+color:white;
+font-size:150%;
+	
+opacity:1;
+}
+
+
+
+.zoom1{z-index:1;}
+.zoom2{z-index:1;}
+.zoom3{z-index:1;}
+#zoom1a{z-index:0;}
+#zoom2a{z-index:0;}
+#zoom3a{z-index:0;}
+
+
+.harshabutton{opacity:0; position:absolute; width:60%; height:80%; left:20%;top:0%; z-index:999;}
+</style>
+
+
+		<!--gsap-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+
+		<!--for loder-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		
+
+		<!--google fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet'>
+	</head>
+	<body >
+<div class="logoload"></div>
+<script>
+	$(window).load(function() {
+		$(".logoload").delay(1000).fadeOut("slow");
+	});
+</script>
+<script>
+	TweenMax.to(".sd01",5,{scale:0.5});
+	TweenMax.to(".logoload",1.2,{scale:1.5});
+
+</script>
+
+
+
+		<div  class="part1  container-fluid headermain gsap1">
+			<div class="row">
+				<div class="largevisible">
+					<div class="col-lg-1">
+					
+					</div>
+				</div>
+					<div class="col-lg-2 col-md-3	 col-sm-3	col-xs-3">
+						<img class="logo" src="NITLOGO2.png" alt="N" ></img>
+					</div>
+					<div class="col-lg-9 col-md-9	col-sm-9	col-xs-9">
+						<div class="largevisible">
+							<h2>NATIONAL INSTITUTE OF TECHNOLOGY DURGAPUR</h2>
+
+						</div>
+						<div class="smallvisible">
+							<h2>NIT DURGAPUR</h2>
+						</div>
+					</div>
+			</div>
+			<div   class="row nitcaption">
+				<div class="col-lg-2 col-md-1">
+				</div>
+				<div class="col-lg-9 col-md-10">
+<p class="newline">An Institute of National Importance under Government of India, Ministry of Human Resource Development</p>
+				</div>
+				<div class="col-lg-1 col-md-1">
+					<button onclick="hidenavbar()"  id="hidebutton">▲</button>
+					<button onclick="hidenavbar()" id="showbutton" style="display: none;">▼</button>
+				</div>
+			</div>
+		</div>
+
+
+		<nav id="hnb"    class="navbar navbar-expand-xs navbar-expand-lg navbar-expand-md navbar-expand-sm sticky-top  navhider gsap2"	style="background-color:rgb(212,212,212);" >
+<div class="nitcaption">
+  <ul class="navbar-nav">
+	<li class="nav-item">
+      <a class="weblinks nav-link"	href="WDCTWORK-MAIN.html">HOME</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="weblinks nav-link"	href="ACADAMICS.html">ACADAMICS	</a>
+    </li>
+    <li class="nav-item">
+      <a class="weblinks nav-link"	href="RESEARCH.html">RESERCH</a>
+    </li>
+    <li class="nav-item">
+      <a class="weblinks nav-link"	href="ADMINISTRATION.html">ADMINISTRATION</a>
+    </li>
+    <li class="nav-item">
+      <a class="weblinks nav-link"	href="FACILITIES.html">FACILITIES</a>
+    </li>
+    <li class="nav-item">
+     <a class="weblinks nav-link"	href="ACTIVITIES.html">ACTIVITIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="weblinks nav-link"	href="STUDENTS.html">STUDENTS</a>
+    </li>
+	<button onclick="virtualtour()">VIRTUAL TOUR</button>
+  </ul>
+
+
+
+</div>
+
+<div class="nitcaptionopposite">
+<a class="weblinks nav-link navbar-brand "		href="WDCTWORK-MAIN.html">HOME</a>
+<button class="btn btn-primary navbar-brand dropdown-toggle" type="button" data-toggle="dropdown">MORE
+  <span class="caret"></span></button>
+
+  <ul class="navbar-nav ">
+    <li class="navbar-item">
+<div class="dropdown">
+  
+  <ul class="dropdown-menu" style="background-color:rgb(212,212,212); border-color:rgb(212,212,212);">
+    <li><a class="weblinks nav-link"	href="ACADAMICS.html">ACADAMICS	</a></li>
+    <li><a class="weblinks nav-link"	href="RESEARCH.html">RESERCH</a></li>
+        <li class="nav-item">
+      <a class="weblinks nav-link"	href="ADMINISTRATION.html">ADMINISTRATION</a>
+    </li>
+    <li class="nav-item">
+      <a class="weblinks nav-link"	href="FACILITIES.html">FACILITIES</a>
+    </li>
+    <li class="nav-item">
+     <a class="weblinks nav-link"	href="ACTIVITIES.html">ACTIVITIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="weblinks nav-link"	href="STUDENTS.html">STUDENTS</a>
+    </li>
+  </ul>
+</div>
+      </li>
+</ul></div>
+</nav>
+<br>
+
+
+
+<div class="container-fluid">
+	<div class="row">
+			<div  class="col-md-5  sd02  gsap3" style=" background-color:blue;">
+<h2>NOTICE BOARD</h2>
+<div id="NITCAROUSEL4" class="carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL4" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL4" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL4" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL4" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL4" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/n1.png" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/n2.png" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/n3.png" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/n4.png" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/n5.png" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL4"  data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL4"  data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>
+
+
+		<div   class="col-md-7  sd02 gsap4"	style="background-color:rgb(255,128,0);">
+<h2>CAMPUS</h2>
+<div id="NITCAROUSEL" class="carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL" data-slide-to="3"></li>
+    <li data-target="#NITCAROUSEL" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/01.jpg" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/02.jpg" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/03.jpg" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/04.jpg" alt="NIT04">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/05.jpg" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/06.jpg" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>
+			
+	</div>
+</div>
+	</div>
+</div>
+
+
+
+
+<div id="vtour" style="transform:scale(0.98);">
+	<h4>VIRTUAL TOUR</h4>
+</div>
+<script>
+	function virtualtour(){
+				var success=document.getElementById("vtour");
+
+				success.scrollIntoView({block: 'start',behavior: 'smooth'});
+				}
+</script>
+
+<script>
+	function hidenavbar(){
+				var success2=document.getElementById("hnb");
+
+				 if (success2.style.display === "none") {
+   				 success2.style.display = "block";
+ 				 }
+				 else {
+ 				   success2.style.display = "none";
+					  }
+
+				var success3=document.getElementById("hidebutton");
+
+				 if (success3.style.display === "none") {
+   				 success3.style.display = "block";
+ 				 }
+				 else {
+ 				   success3.style.display = "none";
+					  }
+
+				var success4=document.getElementById("showbutton");
+
+				 if (success4.style.display === "none") {
+   				 success4.style.display = "block";
+ 				 }
+				 else {
+ 				   success4.style.display = "none";
+					  }
+				}
+
+</script>
+
+
+
+	
+
+
+
+
+
+<br>
+<div class="container-fluid lapview" >
+	<div class="row">
+
+		<div  class="col-md-4 sd01 zoom1 gsap5" id="zoom1a"	style="background-color:rgb(250,88,80);">
+<h2>LABS</h2>
+<button class="harshabutton" onclick="nitdgp1()">harsha</button>
+<div id="NITCAROUSEL1" class="carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL1" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL1" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL1" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL1" data-slide-to="3"></li>
+    <li data-target="#NITCAROUSEL1" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL1" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/11.jpg" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/12.jpg" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/13.jpg" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/14.jpg" alt="NIT04">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/15.jpg" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/16.jpg" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>
+		<div class="col-md-4 zoom2 sd01 gsap6"  id="zoom2a" style="background-color:rgb(255,255,0);">
+<h2>HOSTEL</h2>
+<button class="harshabutton" onclick="nitdgp2()">harsha</button>
+<div id="NITCAROUSEL2" class="carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL2" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL2" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL2" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL2" data-slide-to="3"></li>
+    <li data-target="#NITCAROUSEL2" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL2" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/21.jpg" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/22.jpg" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/23.jpg" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/24.jpg" alt="NIT04">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/25.jpg" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/26.jpg" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL2" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL2" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>
+		<div class="col-md-4 zoom3 sd01 gsap7" id="zoom3a" style="background-color:rgb(225,176,225);">
+<h2>LIBRARY</h2>
+<button class="harshabutton" onclick="nitdgp3()">harsha</button>
+<div id="NITCAROUSEL3"  class=" carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL3" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL3" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL3" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL3" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL3" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/31.jpg" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/32.jpg" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/33.jpg" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/35.jpg" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/36.jpg" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL3" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL3" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>	
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<br>
+<div class="container-fluid     mobileview">
+	<div class="row">
+
+		<div class="col-md-4 sd01  gsap5"	style="background-color:rgb(250,88,80);">
+<h2>LABS</h2>
+<div id="NITCAROUSEL10" class="carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL10" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL10" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL10" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL10" data-slide-to="3"></li>
+    <li data-target="#NITCAROUSEL10" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL10" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/11.jpg" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/12.jpg" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/13.jpg" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/14.jpg" alt="NIT04">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/15.jpg" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/16.jpg" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL10" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL10" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>
+		<div class="col-md-4 sd01 gsap6"	style="background-color:rgb(255,255,0);">
+<h2>HOSTEL</h2>
+<div id="NITCAROUSEL20" class="carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL20" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL20" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL20" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL20" data-slide-to="3"></li>
+    <li data-target="#NITCAROUSEL20" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL20" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/21.jpg" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/22.jpg" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/23.jpg" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/24.jpg" alt="NIT04">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/25.jpg" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/26.jpg" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL20" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL20" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>
+		<div class="col-md-4  sd01 gsap7"	style="background-color:rgb(225,176,225);">
+<h2>LIBRARY</h2>
+<div id="NITCAROUSEL30" class="carousel slide" data-ride="carousel" style="width:100%;">
+  <ul class="carousel-indicators">
+    <li data-target="#NITCAROUSEL30" data-slide-to="0" class="active"></li>
+    <li data-target="#NITCAROUSEL30" data-slide-to="1"></li>
+    <li data-target="#NITCAROUSEL30" data-slide-to="2"></li>
+    <li data-target="#NITCAROUSEL30" data-slide-to="4"></li>
+    <li data-target="#NITCAROUSEL30" data-slide-to="5"></li>
+    </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imgppt"	src="p/31.jpg" alt="NIT01">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/32.jpg" alt="NIT02">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/33.jpg" alt="NIT03">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/35.jpg" alt="NIT05">
+    </div>
+    <div class="carousel-item">
+      <img class="imgppt"	src="p/36.jpg" alt="NIT06">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#NITCAROUSEL30" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#NITCAROUSEL3" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<br>
+		</div>	
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<script></script>
+<script>
+	i=-1;
+	function nitdgp1(){
+	i=-i;
+	if(i==1)
+		{TweenMax.to(".zoom1",1,{scale:1.33,x:"50%"});
+		  document.getElementById("zoom1a").style.zIndex = "100";}
+	else
+		{TweenMax.to(".zoom1",1,{scale:0.98,x:"0%"});
+		  document.getElementById("zoom1a").style.zIndex = "1";}
+}
+</script>
+<script>
+	j=-1;
+	function nitdgp2(x){
+	j=-j;
+	if(j==1)
+		{TweenMax.to(".zoom2",1,{scale:1.33});
+		  document.getElementById("zoom2a").style.zIndex = "100";}
+			else
+		{TweenMax.to(".zoom2",1,{scale:0.98});
+		  document.getElementById("zoom2a").style.zIndex = "1";}
+		
+}
+</script>
+<script>
+	k=-1;
+	function nitdgp3(x){
+	k=-k;
+	if(k==1)
+		{TweenMax.to(".zoom3",1,{scale:1.33,x:"-50%"});
+		  document.getElementById("zoom3a").style.zIndex = "100";}
+	else
+		{TweenMax.to(".zoom3",1,{scale:0.98,x:"0%"});
+		  document.getElementById("zoom3a").style.zIndex = "1";}
+}
+</script>
+
+
+
+
+
+
+<script>
+	TweenMax.from(".gsap1",2,{y:2000});
+	TweenMax.from(".gsap2",3,{opacity:0});
+	TweenMax.from(".gsap3",2,{x:2000});
+	TweenMax.from(".gsap4",2,{x:-1000});
+	TweenMax.from(".gsap5",2,{x:2000});
+	TweenMax.from(".gsap6",2,{y:-2000});
+	TweenMax.from(".gsap7",2,{x:-1000});
+</script>
+
+
+
+
+
+<br><br>
+	<footer>Address:Mahatma Gandhi Avenue, Durgapur 713209, West Bengal, INDIA<br>copy rights:nitdgp.ac.in</footer>
+
+	
+	</body>
+</html>
